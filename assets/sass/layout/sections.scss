@@ -1,20 +1,42 @@
-
-.section1 img {
+ .author__img{
   border-radius: 50%;
-
+  width: 180px;
+  height: 180px;
+  
 }
 
-.section1 {
-  display: inline;
+.author__h3 {
+  font-family: $playfair;
+  font-size: $black-italic;
+  font-style: italic;
+  text-align: left;
 }
 
-.section2 {
+ .author__link--active {
+  font-size: $medium;
+  color: $ruddy-pink;
+}
+
+.author {
+  margin: 5%;
+}
+
+.author__description {
+  padding: 0.2em;
+}
+
+.paginator {
   background-color: $ligth-gray;
   padding-top: 3%;
   padding-bottom: 3%;
 
 }
 
-.section2 nav {
+.paginator__nav {
   margin-left: 40%;
 }
+
+.paginator__item--first {
+  border-radius: 50%;
+}
+ 
